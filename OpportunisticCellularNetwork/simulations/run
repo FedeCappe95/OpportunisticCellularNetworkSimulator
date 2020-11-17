@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/opportunisticcellularnetwork -n .:../src $*
+# for shared lib, use: opp_run -l ../src/opportunisticcellularnetwork -n .:../src $*
